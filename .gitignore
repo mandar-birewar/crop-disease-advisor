@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Dataset (large, download from Kaggle instead)
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Gradio temporary files
+flagged/
+.gradio/
+
+# Archives
+*.zip

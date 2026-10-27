@@ -1,0 +1,6 @@
+tensorflow>=2.16
+gradio>=4.40
+numpy
+pillow
+matplotlib
+scikit-learn

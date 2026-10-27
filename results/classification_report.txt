@@ -1,0 +1,41 @@
+Test accuracy: 0.8055
+
+                                             precision    recall  f1-score   support
+
+              Pepper__bell___Bacterial_spot     0.8936    0.9333    0.9130        45
+                     Pepper__bell___healthy     0.9556    0.9556    0.9556        45
+                      Potato___Early_blight     0.9773    0.9556    0.9663        45
+                       Potato___Late_blight     0.9512    0.8667    0.9070        45
+                           Potato___healthy     0.8800    0.9565    0.9167        23
+                      Tomato_Bacterial_spot     0.7037    0.8444    0.7677        45
+                        Tomato_Early_blight     0.7333    0.4889    0.5867        45
+                         Tomato_Late_blight     0.7317    0.6667    0.6977        45
+                           Tomato_Leaf_Mold     0.5938    0.8444    0.6972        45
+                  Tomato_Septoria_leaf_spot     0.8158    0.6889    0.7470        45
+Tomato_Spider_mites_Two_spotted_spider_mite     0.8158    0.6889    0.7470        45
+                        Tomato__Target_Spot     0.7667    0.5111    0.6133        45
+      Tomato__Tomato_YellowLeaf__Curl_Virus     0.9756    0.8889    0.9302        45
+                Tomato__Tomato_mosaic_virus     0.9070    0.8667    0.8864        45
+                             Tomato_healthy     0.6250    1.0000    0.7692        45
+
+                                   accuracy                         0.8055       653
+                                  macro avg     0.8217    0.8104    0.8067       653
+                               weighted avg     0.8198    0.8055    0.8030       653
+
+
+Class index map:
+ 0  Pepper__bell___Bacterial_spot
+ 1  Pepper__bell___healthy
+ 2  Potato___Early_blight
+ 3  Potato___Late_blight
+ 4  Potato___healthy
+ 5  Tomato_Bacterial_spot
+ 6  Tomato_Early_blight
+ 7  Tomato_Late_blight
+ 8  Tomato_Leaf_Mold
+ 9  Tomato_Septoria_leaf_spot
+10  Tomato_Spider_mites_Two_spotted_spider_mite
+11  Tomato__Target_Spot
+12  Tomato__Tomato_YellowLeaf__Curl_Virus
+13  Tomato__Tomato_mosaic_virus
+14  Tomato_healthy
